@@ -1,0 +1,478 @@
+@import url("/css/reset.css");
+
+* {
+  box-sizing: border-box;
+}
+
+svg {
+  color: #fff;
+}
+
+menu {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(-90deg, #0073e8, #13ffa1);
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 200;
+}
+
+menu .items ul {
+  width: calc(100% + 100px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+menu .items ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+menu .search {
+  position: relative;
+  left: 5%;
+}
+
+menu .search input {
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 12px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+menu .search button:hover {
+  background-color: #01a8ca;
+}
+
+menu .search button {
+  position: absolute;
+  top: 10%;
+  left: 1%;
+  background-color: #0bc4be;
+  border-radius: 12px;
+  border: none;
+  width: 40px;
+  height: 40px;
+}
+
+.logo {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 570px;
+  background-color: #222;
+  top: 100vh;
+  left: 0;
+  z-index: 200;
+}
+
+footer .colorful {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(-90deg, #0073e8, #13ffa1);
+}
+
+footer .mail input {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  background-color: #eeeeee6a;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 0 12px 12px 0;
+  color: #ffffff;
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+footer .mail button {
+  position: absolute;
+  top: 30%;
+  left: 75.5%;
+  background-color: #222;
+  color: #fff;
+  border-radius: 12px 0 0 12px;
+  height: 50px;
+  width: 70px;
+  border: none;
+}
+
+.black {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .black .about-us {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 50%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+footer .black .popular {
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .black .about-us h2 {
+  position: absolute;
+  top: 15%;
+  left: 77%;
+  font-size: 30px;
+  color: #fff;
+}
+
+footer .black .about-us .line {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 160px;
+  border: 1px solid #ffffff76;
+}
+
+footer .black .about-us p {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  margin-top: 10px;
+  width: 300px;
+  color: #fff;
+  line-height: 25px;
+}
+
+footer .black .about-us .logo {
+  position: absolute;
+  top: 60%;
+  left: 79%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 20px;
+  height: 70px;
+}
+
+footer .black .about-us .information {
+  position: absolute;
+  top: 60%;
+  left: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  height: 70px;
+  color: #fff;
+}
+
+footer .black .about-us .about-logo {
+  position: absolute;
+  top: 85%;
+  left: 53%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+}
+
+footer .black .popular h2 {
+  position: absolute;
+  top: 28%;
+  right: 22%;
+  color: #fff;
+  font-size: 30px;
+}
+
+footer .black .popular .line {
+  position: absolute;
+  top: 46%;
+  left: 30%;
+  width: 160px;
+  border: 1px solid #ffffff76;
+}
+
+footer .black .popular .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+footer .black .popular .boxes {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(50px);
+}
+
+footer .black .popular .boxes .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  height: 100px;
+}
+
+footer .black .popular .boxes .box img {
+  height: 90%;
+  border-radius: 15%;
+  margin-left: 10px;
+}
+
+footer .black .popular .boxes .box p,
+h3 {
+  color: #fff;
+}
+
+footer .black .popular .boxes .box h3 {
+  font-size: 24px;
+}
+
+footer .black .popular .boxes .box p {
+  font-size: 18px;
+}
+
+footer .black .advertisement img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 43%;
+  left: 10%;
+}
+
+.shorts {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shorts .box {
+  width: 23%;
+  height: 550px;
+  margin: auto;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.shorts .box1 {
+  background-image: url(https://mwallpaper.ir/wp-content/uploads/2022/04/%D9%BE%D8%B3-%D8%B2%D9%85%DB%8C%D9%86%D9%87-%DA%AF%D8%B1%D8%AF%D8%B4%DA%AF%D8%B1%DB%8C-%D8%A8%D8%A7%DA%A9%DB%8C%D9%81%DB%8C%D8%AA-4k-1.jpg?v=1649100019);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shorts .box2 {
+  background-image: url(https://mwallpaper.ir/wp-content/uploads/2022/04/%D8%B9%DA%A9%D8%B3-%D8%A8%D8%A7%DA%A9%DB%8C%D9%81%DB%8C%D8%AA-4k-%D8%A7%D8%B2-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%DA%AF%DB%8C%D9%85%DB%8C%D9%86%DA%AF-%D9%88-rgb-1024x576.jpg?v=1649099003);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shorts .box3 {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/970/409/218/green-apple-fruit-close-up-photography-green-apple-fruit-lot-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.shorts .box4 {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/384/667/805/table-balls-billiards-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+}
+
+.shorts .box1 h3 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 1000;
+  top: 72%;
+  left: 78%;
+}
+
+.shorts .box1 h4 {
+  position: absolute;
+  top: 67%;
+  left: 95%;
+  background-color: #ff9500;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 2px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.shorts .box1 .about p {
+  color: #fff;
+}
+
+.shorts .box1 .about {
+  position: absolute;
+  top: 78%;
+  right: 1%;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.shorts .box2 h3 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 1000;
+  top: 73%;
+  left: 56%;
+}
+
+.shorts .box2 h4 {
+  position: absolute;
+  top: 67%;
+  left: 69%;
+  background-color: #008cff;
+  width: 60px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 2px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.shorts .box2 .about p {
+  color: #fff;
+}
+
+.shorts .box2 .about {
+  position: absolute;
+  top: 77%;
+  left: 56.4%;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.shorts .box3 h3 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 1000;
+  top: 73%;
+  left: 40%;
+}
+
+.shorts .box3 h4 {
+  position: absolute;
+  top: 67%;
+  left: 42.7%;
+  background-color: #00e30b;
+  width: 81px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 2px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.shorts .box3 .about p {
+  color: #fff;
+}
+
+.shorts .box3 .about {
+  position: absolute;
+  top: 77%;
+  left: 31.5%;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.shorts .box4 h3 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 1000;
+  top: 73%;
+  left: 1.5%;
+}
+
+.shorts .box4 h4 {
+  position: absolute;
+  top: 67%;
+  left: 20%;
+  background-color: #ff0000;
+  width: 42px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 2px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.shorts .box4 .about p {
+  color: #fff;
+}
+
+.shorts .box4 .about {
+  position: absolute;
+  top: 77%;
+  left: 6.4%;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.shorts .box4:hover{
+.info  {
+ 
+}
+
+}
+
+
