@@ -6,6 +6,11 @@
   src: url(/assets/fonts/Estedad-FD-Regular.ttf);
 }
 
+@font-face {
+  font-family: estedad;
+  src: url(/assets/fonts/Estedad-FD-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
   font-family: estedad;
@@ -162,7 +167,7 @@ footer .black .about-us h2 {
   position: absolute;
   top: 15%;
   left: 77%;
-  font-size: 30px;
+  font-size: 28px;
   color: #fff;
 }
 
@@ -181,7 +186,8 @@ footer .black .about-us p {
   margin-top: 10px;
   width: 300px;
   color: #fff;
-  line-height: 25px;
+  line-height: 1.7;
+  text-align: justify;
 }
 
 footer .black .about-us .logo {
@@ -192,7 +198,7 @@ footer .black .about-us .logo {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  margin-top: 20px;
+  margin-top: 50px;
   height: 70px;
 }
 
@@ -204,14 +210,14 @@ footer .black .about-us .information {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 50px;
   height: 70px;
   color: #fff;
 }
 
 footer .black .about-us .about-logo {
   position: absolute;
-  top: 85%;
+  top: 90%;
   left: 53%;
   display: flex;
   flex-direction: row;
@@ -222,16 +228,16 @@ footer .black .about-us .about-logo {
 
 footer .black .popular h2 {
   position: absolute;
-  top: 28%;
+  top: 10%;
   right: 22%;
   color: #fff;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 footer .black .popular .line {
   position: absolute;
-  top: 46%;
-  left: 30%;
+  top: 25%;
+  left: 27%;
   width: 160px;
   border: 1px solid #ffffff76;
 }
@@ -264,17 +270,20 @@ footer .black .popular .boxes .box img {
   margin-left: 10px;
 }
 
-footer .black .popular .boxes .box p,
+footer .black .popular .boxes .box span,
 h3 {
   color: #fff;
 }
 
 footer .black .popular .boxes .box h3 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
-footer .black .popular .boxes .box p {
-  font-size: 18px;
+footer .black .popular .boxes .box span {
+  font-size: 15px;
+  margin-top: 70px;
+  margin-left: 100px;
+  display: block;
 }
 
 footer .black .advertisement img {
@@ -286,9 +295,8 @@ footer .black .advertisement img {
 }
 
 .shorts {
-  position: absolute;
   width: 100%;
-  height: 800px;
+  height: 700px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -332,7 +340,7 @@ footer .black .advertisement img {
 
 .shorts .box1 h3 {
   position: absolute;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 1000;
   top: 72%;
   left: 78%;
@@ -343,12 +351,13 @@ footer .black .advertisement img {
   top: 67%;
   left: 95%;
   background-color: #ff9500;
-  width: 50px;
+  width: 57px;
   height: 20px;
   border-radius: 5px;
   padding: 2px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .shorts .box1 .about p {
@@ -369,10 +378,10 @@ footer .black .advertisement img {
 
 .shorts .box2 h3 {
   position: absolute;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 1000;
   top: 73%;
-  left: 56%;
+  left: 55%;
 }
 
 .shorts .box2 h4 {
@@ -385,7 +394,8 @@ footer .black .advertisement img {
   border-radius: 5px;
   padding: 2px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .shorts .box2 .about p {
@@ -406,23 +416,24 @@ footer .black .advertisement img {
 
 .shorts .box3 h3 {
   position: absolute;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 1000;
   top: 73%;
-  left: 40%;
+  left: 39%;
 }
 
 .shorts .box3 h4 {
   position: absolute;
   top: 67%;
-  left: 42.7%;
+  left: 42%;
   background-color: #00e30b;
-  width: 81px;
+  width: 100px;
   height: 20px;
   border-radius: 5px;
   padding: 2px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .shorts .box3 .about p {
@@ -443,7 +454,7 @@ footer .black .advertisement img {
 
 .shorts .box4 h3 {
   position: absolute;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 1000;
   top: 73%;
   left: 1.5%;
@@ -459,7 +470,8 @@ footer .black .advertisement img {
   border-radius: 5px;
   padding: 2px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .shorts .box4 .about p {
@@ -478,23 +490,44 @@ footer .black .advertisement img {
   align-items: center;
 }
 
-.shorts .box4:hover :not() {
-  filter: blur(3px);
+.last-news {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.shorts .box4:hover h4 {
-  position: absolute;
-  top: 65%;
+.last-news .boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.shorts .box4:hover h3 {
-  position: absolute;
-  top: 70%;
+.last-news .boxes .box {
+  width: 20%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 12px;
 }
 
-.shorts .box4:hover .about {
-  position: absolute;
-  top: 75%;
+.last-news .boxes .box img {
+  width: 90%;
+  height: 250px;
+  border-radius: 12px;
+  filter: brightness(80%);
 }
 
-
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+}
