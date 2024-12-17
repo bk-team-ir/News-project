@@ -468,11 +468,23 @@ footer .black .advertisement img {
   align-items: center;
 }
 
-.shorts .box4:hover{
-.info  {
- 
+.shorts .box4:hover :not() {
+  filter: blur(3px);
 }
 
+.shorts .box4:hover h4 {
+  position: absolute;
+  top: 65%;
+}
+
+.shorts .box4:hover h3 {
+  position: absolute;
+  top: 70%;
+}
+
+.shorts .box4:hover .about {
+  position: absolute;
+  top: 75%;
 }
 
 
