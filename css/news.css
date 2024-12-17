@@ -1,0 +1,134 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.news {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news h1 {
+  width: 20%;
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.news ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.news ul li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  overflow: hidden;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.news ul li:hover {
+  box-shadow: 0 0 10px #dbdbdb;
+  transition: all 0.2s ease;
+}
+
+.news ul li img {
+  width: 120px;
+  height: 120px;
+  margin-left: 10px;
+  object-fit: cover;
+}
+
+.news ul li .details {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news ul li .details h2 {
+  font-size: 22px;
+}
+
+.news ul li .details p {
+  width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.news ul li .details span {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.page .last--news {
+  height: 340px;
+  width: 29%;
+  border: 1px solid #eee;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.page .last--news h3 {
+  font-size: 23px;
+  color: #000;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.page .last--news ul li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.page .last--news ul li img {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+}
+
+.page .last--news ul li .details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page .last--news ul li .details p {
+  font-size: 13px;
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1.5;
+  opacity: .8;
+}
+
+.page .last--news ul li .details span {
+  font-size: 10px;
+  opacity: .8;
+  line-height: 1.5;
+}
