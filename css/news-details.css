@@ -37,3 +37,13 @@
   margin-left: 5px;
   opacity: .8;
 }
+
+@media only screen and (max-width: 768px) {
+  .page .news--details {
+    width: 100%;
+  }
+
+  .page .news--details h1 {
+    font-size: 32px;
+  }
+}
