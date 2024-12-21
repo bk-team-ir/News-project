@@ -515,7 +515,7 @@ footer .black .advertisement img {
 .last-news .linetop {
   position: absolute;
   right: 0%;
-  top: -3%;
+  top: 0%;
   width: 20px;
   height: 20px;
   border: 5px solid #008cff;
@@ -526,7 +526,7 @@ footer .black .advertisement img {
 
 .last-news .linebutton {
   position: absolute;
-  top: 93%;
+  top: 88%;
   left: 0.3%;
   width: 20px;
   height: 20px;
@@ -537,7 +537,7 @@ footer .black .advertisement img {
 
 .last-news > h3 {
   position: absolute;
-  top: -1%;
+  top: 3%;
   right: 1.5%;
   color: #008cff;
   font-size: 18px;
@@ -554,15 +554,23 @@ footer .black .advertisement img {
 
 .last-news .boxes .box {
   width: 20%;
-  height: 380px;
+  height: 340px;
   padding-top: 10px;
   margin: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: start;
+  align-items: center;
   background-color: #eee;
   border-radius: 12px;
+}
+
+.last-news .boxes .box p {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-self: center;
 }
 
 .last-news .boxes .box1 {
@@ -611,6 +619,7 @@ footer .black .advertisement img {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+  flex-wrap: wrap;
 }
 
 .event .news {
@@ -621,6 +630,12 @@ footer .black .advertisement img {
   width: 80%;
 }
 
+.event:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
 
 .event .Category {
   display: flex;
@@ -865,7 +880,7 @@ footer .black .advertisement img {
 .event .Category .travel h3 {
   position: absolute;
   top: 40%;
-  right: 40%;
+  right: 33%;
   z-index: 100;
   color: #ffffff;
   font-size: 30px;
@@ -953,6 +968,444 @@ footer .black .advertisement img {
 .event .event-image:hover h4 {
   top: 73%;
   right: 2%;
+}
+
+.litlle-news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+
+.litlle-news .news-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 10%;
+  height: 600px;
+}
+
+.litlle-news .news-text label {
+  color: #ffffff;
+  font-size: 25px;
+  background-color: #008cff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.litlle-news .first-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: fit-content;
+}
+
+.litlle-news .first-news .box {
+  position: relative;
+  width: 90%;
+  height: 110px;
+  background-color: #eee;
+  border-radius: 12px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.litlle-news .first-news .box1 h3 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  font-size: 20px;
+}
+
+.litlle-news .first-news .box1 h4 {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  background-color: #00e30b;
+  width: 105px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 3px 1px 2px;
+  font-size: 16px;
+}
+
+.litlle-news .first-news .box1 p {
+  position: absolute;
+  top: 76%;
+  right: 30%;
+  font-size: 14px;
+  color: #444;
+}
+
+.litlle-news .first-news .box2 h3 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  font-size: 20px;
+}
+
+.litlle-news .first-news .box2 h4 {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  background-color: #008cff;
+  width: 65px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 3px 1px 2px;
+  font-size: 16px;
+}
+
+.litlle-news .first-news .box2 p {
+  position: absolute;
+  top: 76%;
+  right: 30%;
+  font-size: 14px;
+  color: #444;
+}
+
+.litlle-news .first-news .box3 h3 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  font-size: 20px;
+}
+
+.litlle-news .first-news .box3 h4 {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  background-color: #ff9500;
+  width: 65px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 3px 1px 2px;
+  font-size: 16px;
+}
+
+.litlle-news .first-news .box3 p {
+  position: absolute;
+  top: 76%;
+  right: 30%;
+  font-size: 14px;
+  color: #444;
+}
+
+.litlle-news .first-news .box4 h3 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  font-size: 20px;
+}
+
+.litlle-news .first-news .box4 h4 {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  background-color: #bb00ff;
+  width: 25px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 3px 1px 2px;
+  font-size: 16px;
+}
+
+.litlle-news .first-news .box4 p {
+  position: absolute;
+  top: 76%;
+  right: 30%;
+  font-size: 14px;
+  color: #444;
+}
+
+.litlle-news .first-news .box img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.litlle-news .second-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: fit-content;
+}
+
+.litlle-news .second-news .box {
+  position: relative;
+  width: 90%;
+  height: 110px;
+  background-color: #eee;
+  border-radius: 12px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.litlle-news .second-news .box1 h3 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  font-size: 20px;
+}
+
+.litlle-news .second-news .box1 h4 {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  background-color: #00e30b;
+  width: 105px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 3px 1px 2px;
+  font-size: 16px;
+}
+
+.litlle-news .second-news .box1 p {
+  position: absolute;
+  top: 76%;
+  right: 30%;
+  font-size: 14px;
+  color: #444;
+}
+
+.litlle-news .second-news .box2 h3 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  font-size: 20px;
+}
+
+.litlle-news .second-news .box2 h4 {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  background-color: #008cff;
+  width: 65px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 3px 1px 2px;
+  font-size: 16px;
+}
+
+.litlle-news .second-news .box2 p {
+  position: absolute;
+  top: 76%;
+  right: 30%;
+  font-size: 14px;
+  color: #444;
+}
+
+.litlle-news .second-news .box3 h3 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  font-size: 20px;
+}
+
+.litlle-news .second-news .box3 h4 {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  background-color: #ff9500;
+  width: 65px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 3px 1px 2px;
+  font-size: 16px;
+}
+
+.litlle-news .second-news .box3 p {
+  position: absolute;
+  top: 76%;
+  right: 30%;
+  font-size: 14px;
+  color: #444;
+}
+
+.litlle-news .second-news .box4 h3 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  font-size: 20px;
+}
+
+.litlle-news .second-news .box4 h4 {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  background-color: #bb00ff;
+  width: 25px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 3px 1px 2px;
+  font-size: 16px;
+}
+
+.litlle-news .second-news .box4 p {
+  position: absolute;
+  top: 76%;
+  right: 30%;
+  font-size: 14px;
+  color: #444;
+}
+
+.litlle-news .second-news .box img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.litlle-news .last-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: fit-content;
+}
+
+.litlle-news .last-part .social {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 90%;
+  margin-bottom: -40px;
+  padding: 20px 20px 40px 20px;
+}
+
+.litlle-news .last-part .social .line-top {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  width: 40px;
+  height: 40px;
+  border: 7px solid #008cff;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0 5px 0 0;
+}
+
+.litlle-news .last-part .social .box {
+  width: 48%;
+  height: 40%;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.litlle-news .last-part .social .box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.litlle-news .last-part .social .box1 svg {
+  color: #00f;
+}
+
+.litlle-news .last-part .social .box1 h3 {
+  margin: 10px 5px 0 5px;
+}
+
+.litlle-news .last-part .social .box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.litlle-news .last-part .social .box2 h3 {
+  margin: 10px 5px 0 5px;
+}
+
+.litlle-news .last-part .social .box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.litlle-news .last-part .social .box3 svg {
+  color: #f00;
+}
+
+.litlle-news .last-part .social .box3 h3 {
+  margin: 10px 5px 0 5px;
+}
+
+.litlle-news .last-part .social .box4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.litlle-news .last-part .social .box4 svg {
+  color: #ff7b00;
+}
+
+.litlle-news .last-part .social .box4 h3 {
+  margin: 10px 5px 0 5px;
+}
+
+.litlle-news .last-part .social .line-bottom {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 7px solid #008cff;
+  border-top: none;
+  border-right: none;
+  left: 1%;
+  top: 70%;
+  border-radius: 0 0 0 5px;
+}
+
+.litlle-news .last-part .ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  width: 90%;
+  background: linear-gradient(-90deg, #0073e8, #13ffa1);
+  border-radius: 12px;
+}
+
+.litlle-news .last-part .ad img {
+  width: 50%;
+  height: 150px;
+  border-radius: 12px;
+}
+
+.last-part>h3 {
+  font-size: 22px;
+  color: #ffffff;
+  background-color: #008cff;
+  border-radius: 5px;
+  width: 72px;
+  height: 30px;
+  padding: 2px;
+  margin-bottom: -5px
 }
 
 .body {
