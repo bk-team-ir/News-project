@@ -619,22 +619,15 @@ footer .black .advertisement img {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
-  flex-wrap: wrap;
 }
 
 .event .news {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
   width: 80%;
-}
-
-.event:last-child {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: start;
 }
 
 .event .Category {
@@ -886,7 +879,24 @@ footer .black .advertisement img {
   font-size: 30px;
 }
 
-.event .event-image {
+.event .news .row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.event .news .row-2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.event .news .row-1 .event-image {
   position: relative;
   margin: 0px 10px 0 5px;
   width: 50%;
@@ -898,18 +908,18 @@ footer .black .advertisement img {
   overflow: hidden;
 }
 
-.event .event-image img {
+.event .news .row-1 .event-image img {
   position: absolute;
   top: -130px;
   width: 100%;
   transition: filter 1s;
 }
 
-.event .event-image:hover img {
+.event .news .row-1 .event-image:hover img {
   filter: brightness(50%);
 }
 
-.event .event-image h3 {
+.event .news .row-1 .event-image h3 {
   font-size: 25px;
   position: absolute;
   top: 101%;
@@ -918,12 +928,12 @@ footer .black .advertisement img {
   transition: top 0.8s;
 }
 
-.event .event-image:hover h3 {
+.event .news .row-1 .event-image:hover h3 {
   top: 80%;
   right: 3%;
 }
 
-.event .box1 h4 {
+.event .news .row-1 .box1 h4 {
   position: absolute;
   top: 101%;
   right: 2%;
@@ -937,7 +947,7 @@ footer .black .advertisement img {
   transition: top 0.8s;
 }
 
-.event .box2 h4 {
+.event .news .row-1 .box2 h4 {
   position: absolute;
   top: 101%;
   right: 2%;
@@ -951,7 +961,7 @@ footer .black .advertisement img {
   transition: top 0.8s;
 }
 
-.event .box3 h4 {
+.event .news .row-1 .box3 h4 {
   position: absolute;
   top: 101%;
   right: 2%;
@@ -965,7 +975,91 @@ footer .black .advertisement img {
   transition: top 0.8s;
 }
 
-.event .event-image:hover h4 {
+.event .news .row-1 .event-image:hover h4 {
+  top: 73%;
+  right: 2%;
+}
+
+.event .news .row-2 .event-image {
+  position: relative;
+  margin: 0px 10px 0 5px;
+  width: 50%;
+  height: 420px;
+  background-position: 0px;
+  background-size: cover;
+  border-radius: 12px;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.event .news .row-2 .event-image img {
+  position: absolute;
+  top: -130px;
+  width: 100%;
+  transition: filter 1s;
+}
+
+.event .news .row-2 .event-image:hover img {
+  filter: brightness(50%);
+}
+
+.event .news .row-2 .event-image h3 {
+  font-size: 25px;
+  position: absolute;
+  top: 101%;
+  right: 3%;
+  color: #fff;
+  transition: top 0.8s;
+}
+
+.event .news .row-2 .event-image:hover h3 {
+  top: 80%;
+  right: 3%;
+}
+
+.event .news .row-2 .box1 h4 {
+  position: absolute;
+  top: 101%;
+  right: 2%;
+  font-size: 16px;
+  background-color: #008cff;
+  width: 72px;
+  height: 20px;
+  padding-right: 5px;
+  padding-top: 2px;
+  border-radius: 5px;
+  transition: top 0.8s;
+}
+
+.event .news .row-2 .box2 h4 {
+  position: absolute;
+  top: 101%;
+  right: 2%;
+  font-size: 16px;
+  background-color: #ff0000;
+  width: 50px;
+  height: 20px;
+  padding-right: 5px;
+  padding-top: 2px;
+  border-radius: 5px;
+  transition: top 0.8s;
+}
+
+.event .news .row-2 .box3 h4 {
+  position: absolute;
+  top: 101%;
+  right: 2%;
+  font-size: 16px;
+  background-color: #00e30b;
+  width: 105px;
+  height: 20px;
+  padding-right: 5px;
+  padding-top: 2px;
+  border-radius: 5px;
+  transition: top 0.8s;
+}
+
+.event .news .row-2 .event-image:hover h4 {
   top: 73%;
   right: 2%;
 }
@@ -1397,7 +1491,7 @@ footer .black .advertisement img {
   border-radius: 12px;
 }
 
-.last-part>h3 {
+.last-part > h3 {
   font-size: 22px;
   color: #ffffff;
   background-color: #008cff;
@@ -1405,7 +1499,7 @@ footer .black .advertisement img {
   width: 72px;
   height: 30px;
   padding: 2px;
-  margin-bottom: -5px
+  margin-bottom: -5px;
 }
 
 .body {
