@@ -1,0 +1,58 @@
+.about--page .about--image {
+  background-image: url(https://cdn.pixabay.com/photo/2024/04/02/14/51/ai-generated-8671002_1280.jpg);
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 10px;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 80px 10px 0  10px;
+}
+
+.about--page .about--image .dark h1 {
+  color: rgb(213, 210, 210);
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.about--page .about--image .dark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 98.61%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.569);
+  filter: brightness(2);
+}
+
+.about--page .about--us {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about--page .about--us .about--us--box {
+  width: 40%;
+  margin: 30px;
+  line-height: 1.5;
+}
+
+.about--page .about--us .about--us--box h2 {
+  color: #0047df;
+  font-size: 35px;
+}
+
+.about--page .about--us .about--us--box p {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about--page .about--us .about--us--img {
+  width: 40%;
+  margin: 50px 0 0 0;
+}
