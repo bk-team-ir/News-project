@@ -1512,3 +1512,11 @@ footer .black .advertisement img {
   align-items: start;
   flex-wrap: wrap;
 }
+
+@media only screen and (max-width:480px) {
+  .body .shorts {
+    flex-direction: column;
+  }
+
+  
+}

@@ -22,10 +22,9 @@
 }
 
 .address--box {
-  width: 30%;
-  height: 100px;
+  width: 20%;
   background-color: rgb(199, 225, 248);
-  height: 300px;
+  height: 200px;
   padding: 20px;
   text-align: center;
   border: #76aaff double;
@@ -39,38 +38,42 @@
 }
 
 .address--box p {
+  font-size: 20px;
+  margin-top: 20px;
   line-height: 2;
   text-align: center;
 }
 
 .phone--box {
-  width: 30%;
-  height: 100px;
+  width: 20%;
   text-align: center;
   background-color: rgb(199, 225, 248);
-  height: 300px;
+  height: 200px;
   padding: 20px;
   border: #76aaff double;
   border-radius: 12px;
 }
 
 .phone--box p {
+  font-size: 20px;
+  margin-top: 20px;
   line-height: 2;
   text-align: center;
 }
 
 .email--box {
-  width: 30%;
-  height: 100px;
+  width: 20%;
   text-align: center;
   background-color: rgb(199, 225, 248);
-  height: 300px;
+  height: 200px;
   padding: 20px;
   border: #76aaff double;
   border-radius: 12px;
 }
 
 .email--box p {
+  font-size: 20px;
+  margin-top: 20px;
   line-height: 2;
   text-align: center;
 }
@@ -153,4 +156,84 @@ textarea {
 
 .form .form--img {
   margin: 0 0 0 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  * {
+    margin: 0;
+  }
+  .contact--page {
+    width: 100%;
+  }
+  .contact--page .get--in--touch {
+    width: 100%;
+  }
+
+  .contact--page .get--in--touch h1 {
+    color: #000;
+    text-align: center;
+    margin: 40px auto;
+  }
+
+  .contact--page .get--in--touch .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .contact--page .get--in--touch .row p {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .contact--page .get--in--touch .row .address--box {
+    width: 32%;
+  }
+
+  .contact--page .get--in--touch .row .phone--box {
+    width: 32%;
+  }
+
+  .contact--page .get--in--touch .row .email--box {
+    width: 32%;
+  }
+
+  .contact--page .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .contact--page .form .message--us {
+    width: 100%;
+  }
+
+  .contact--page .form .message--us p {
+    text-align: justify;
+    padding: 10px;
+    margin: 5px 0 5px 5px;
+  }
+
+  .contact--page .form .form--box {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .form .form--box button {
+    margin: 0 15px 0 0;
+  }
+
+  .form--img {
+    margin: 0;
+    width: 100%;
+  }
+
+  .form--img img {
+    width: 100%;
+  }
 }

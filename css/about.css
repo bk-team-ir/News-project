@@ -7,7 +7,9 @@
   background-position: 10px;
   background-attachment: fixed;
   background-size: cover;
-  margin: 80px 10px 0  10px;
+  margin: 80px 10px 0 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .about--page .about--image .dark h1 {
@@ -55,4 +57,42 @@
 .about--page .about--us .about--us--img {
   width: 40%;
   margin: 50px 0 0 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .about--page .about--image {
+    width: 100%;
+  }
+
+  .about--page .about--image {
+    margin: 0;
+  }
+
+  .about--page .about--image .dark {
+    width: 100%;
+  }
+  .about--page .about--us {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .about--page .about--us .about--us--box p {
+    font-size: 17px;
+    line-height: 2;
+    padding: 0 10px;
+  }
+
+  .about--page .about--us .about--us--box {
+    width: 100%;
+    margin: 0;
+  }
+  .about--page .about--us .about--us--img {
+    width: 100%;
+  }
+
+  .about--page .about--us .about--us--img img {
+    width: 100%;
+  }
 }
