@@ -929,5 +929,13 @@
         </div>
       </div>
     </footer>
+    <script>
+      const hamburgerMenu = document.querySelector(".hamburger-menu");
+      const menuLinks = document.querySelector(".menu-links");
+
+      hamburgerMenu.addEventListener("click", () => {
+        menuLinks.classList.toggle("show");
+      });
+    </script>
   </body>
 </html>
