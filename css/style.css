@@ -1,6 +1,8 @@
 @import url("/css/reset.css");
 @import url("/css/news.css");
 @import url("/css/news-details.css");
+@import url("/css/contact.css");
+@import url("/css/about.css");
 
 @font-face {
   font-family: estedad;
@@ -124,6 +126,7 @@ footer .mail input {
   color: #ffffff;
   padding-right: 20px;
   font-size: 16px;
+  outline: none;
 }
 
 footer .mail button {
