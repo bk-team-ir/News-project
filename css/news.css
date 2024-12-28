@@ -1,7 +1,6 @@
 .page {
   display: flex;
   flex-direction: row;
-  margin-top: 70px;
   margin-bottom: 20px;
 }
 
