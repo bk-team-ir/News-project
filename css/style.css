@@ -907,7 +907,10 @@ menu .search button {
 }
 
 .litlle-news .first-news .box {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   width: 90%;
   height: 110px;
   background-color: #eee;
@@ -916,17 +919,25 @@ menu .search button {
   padding: 10px;
 }
 
-.litlle-news .first-news .box1 h3 {
-  position: absolute;
-  top: 45%;
-  right: 30%;
+.litlle-news .first-news .box .img {
+  width: 23%;
+  justify-self: start;
+}
+
+.litlle-news .first-news .box .texts {
+  width: 67%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.litlle-news .first-news .box1 .texts h3 {
   font-size: 20px;
 }
 
-.litlle-news .first-news .box1 h4 {
-  position: absolute;
-  top: 20%;
-  right: 30%;
+.litlle-news .first-news .box1 .texts h4 {
   background-color: #00e30b;
   width: 105px;
   height: 20px;
@@ -936,53 +947,35 @@ menu .search button {
   font-size: 16px;
 }
 
-.litlle-news .first-news .box1 p {
-  position: absolute;
-  top: 76%;
-  right: 30%;
+.litlle-news .first-news .box1 .texts p {
   font-size: 14px;
   color: #444;
 }
 
-.litlle-news .first-news .box2 h3 {
-  position: absolute;
-  top: 45%;
-  right: 30%;
+.litlle-news .first-news .box2 .texts h3 {
   font-size: 20px;
 }
 
-.litlle-news .first-news .box2 h4 {
-  position: absolute;
-  top: 20%;
-  right: 30%;
+.litlle-news .first-news .box2 .texts h4 {
   background-color: #008cff;
   width: 65px;
-  height: 20px;
+  height: 22px;
   border-radius: 5px;
   color: #fff;
   padding: 3px 3px 1px 2px;
   font-size: 16px;
 }
 
-.litlle-news .first-news .box2 p {
-  position: absolute;
-  top: 76%;
-  right: 30%;
+.litlle-news .first-news .box2  .texts p {
   font-size: 14px;
   color: #444;
 }
 
-.litlle-news .first-news .box3 h3 {
-  position: absolute;
-  top: 45%;
-  right: 30%;
+.litlle-news .first-news .box3 .texts h3 {
   font-size: 20px;
 }
 
-.litlle-news .first-news .box3 h4 {
-  position: absolute;
-  top: 20%;
-  right: 30%;
+.litlle-news .first-news .box3 .texts h4 {
   background-color: #ff9500;
   width: 65px;
   height: 20px;
@@ -992,25 +985,16 @@ menu .search button {
   font-size: 16px;
 }
 
-.litlle-news .first-news .box3 p {
-  position: absolute;
-  top: 76%;
-  right: 30%;
+.litlle-news .first-news .box3 .texts p {
   font-size: 14px;
   color: #444;
 }
 
-.litlle-news .first-news .box4 h3 {
-  position: absolute;
-  top: 45%;
-  right: 30%;
+.litlle-news .first-news .box4 .texts h3 {
   font-size: 20px;
 }
 
-.litlle-news .first-news .box4 h4 {
-  position: absolute;
-  top: 20%;
-  right: 30%;
+.litlle-news .first-news .box4 .texts h4 {
   background-color: #bb00ff;
   width: 25px;
   height: 20px;
@@ -1020,10 +1004,7 @@ menu .search button {
   font-size: 16px;
 }
 
-.litlle-news .first-news .box4 p {
-  position: absolute;
-  top: 76%;
-  right: 30%;
+.litlle-news .first-news .box4 .texts p {
   font-size: 14px;
   color: #444;
 }
@@ -1043,7 +1024,10 @@ menu .search button {
 }
 
 .litlle-news .second-news .box {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   width: 90%;
   height: 110px;
   background-color: #eee;
@@ -1052,17 +1036,25 @@ menu .search button {
   padding: 10px;
 }
 
-.litlle-news .second-news .box1 h3 {
-  position: absolute;
-  top: 45%;
-  right: 30%;
+.litlle-news .second-news .box .img {
+  width: 23%;
+  justify-self: start;
+}
+
+.litlle-news .second-news .box .texts {
+  width: 67%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.litlle-news .second-news .box1 .texts h3 {
   font-size: 20px;
 }
 
-.litlle-news .second-news .box1 h4 {
-  position: absolute;
-  top: 20%;
-  right: 30%;
+.litlle-news .second-news .box1 .texts h4 {
   background-color: #00e30b;
   width: 105px;
   height: 20px;
@@ -1072,53 +1064,35 @@ menu .search button {
   font-size: 16px;
 }
 
-.litlle-news .second-news .box1 p {
-  position: absolute;
-  top: 76%;
-  right: 30%;
+.litlle-news .second-news .box1 .texts p {
   font-size: 14px;
   color: #444;
 }
 
-.litlle-news .second-news .box2 h3 {
-  position: absolute;
-  top: 45%;
-  right: 30%;
+.litlle-news .second-news .box2 .texts h3 {
   font-size: 20px;
 }
 
-.litlle-news .second-news .box2 h4 {
-  position: absolute;
-  top: 20%;
-  right: 30%;
+.litlle-news .second-news .box2 .texts h4 {
   background-color: #008cff;
   width: 65px;
-  height: 20px;
+  height: 22px;
   border-radius: 5px;
   color: #fff;
   padding: 3px 3px 1px 2px;
   font-size: 16px;
 }
 
-.litlle-news .second-news .box2 p {
-  position: absolute;
-  top: 76%;
-  right: 30%;
+.litlle-news .second-news .box2 .texts p {
   font-size: 14px;
   color: #444;
 }
 
-.litlle-news .second-news .box3 h3 {
-  position: absolute;
-  top: 45%;
-  right: 30%;
+.litlle-news .second-news .box3 .texts h3 {
   font-size: 20px;
 }
 
-.litlle-news .second-news .box3 h4 {
-  position: absolute;
-  top: 20%;
-  right: 30%;
+.litlle-news .second-news .box3 .texts h4 {
   background-color: #ff9500;
   width: 65px;
   height: 20px;
@@ -1128,25 +1102,16 @@ menu .search button {
   font-size: 16px;
 }
 
-.litlle-news .second-news .box3 p {
-  position: absolute;
-  top: 76%;
-  right: 30%;
+.litlle-news .second-news .box3 .texts p {
   font-size: 14px;
   color: #444;
 }
 
-.litlle-news .second-news .box4 h3 {
-  position: absolute;
-  top: 45%;
-  right: 30%;
+.litlle-news .second-news .box4 .texts h3 {
   font-size: 20px;
 }
 
-.litlle-news .second-news .box4 h4 {
-  position: absolute;
-  top: 20%;
-  right: 30%;
+.litlle-news .second-news .box4 .texts h4 {
   background-color: #bb00ff;
   width: 25px;
   height: 20px;
@@ -1156,10 +1121,7 @@ menu .search button {
   font-size: 16px;
 }
 
-.litlle-news .second-news .box4 p {
-  position: absolute;
-  top: 76%;
-  right: 30%;
+.litlle-news .second-news .box4 .texts p {
   font-size: 14px;
   color: #444;
 }
@@ -1565,7 +1527,7 @@ footer .under .left img {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 30px;
     height: auto;
   }
