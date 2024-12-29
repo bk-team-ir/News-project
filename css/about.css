@@ -4,13 +4,12 @@
   height: 400px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 10px;
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
   margin: 80px auto;
   display: flex;
   flex-direction: row;
-  padding-left: 10px;
 }
 
 .about--page .about--image .dark h1 {

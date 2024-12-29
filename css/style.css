@@ -124,7 +124,21 @@ menu .search button {
   margin: auto;
   border-radius: 12px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+}
+.shorts .box .empty {
+  height: 70%;
+  width: 100%;
+}
+
+.shorts .box .texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  height: 30%;
+  margin-right: 10px;
 }
 
 .shorts .box h3 {
@@ -158,17 +172,11 @@ menu .search button {
 }
 
 .shorts .box1 h3 {
-  position: absolute;
   font-size: 23px;
   font-weight: 1000;
-  top: 72%;
-  left: 78%;
 }
 
 .shorts .box1 h4 {
-  position: absolute;
-  top: 67%;
-  left: 95%;
   background-color: #ff9500;
   width: 57px;
   height: 20px;
@@ -184,9 +192,6 @@ menu .search button {
 }
 
 .shorts .box1 .about {
-  position: absolute;
-  top: 78%;
-  right: 1%;
   width: 260px;
   height: 50px;
   display: flex;
@@ -196,17 +201,11 @@ menu .search button {
 }
 
 .shorts .box2 h3 {
-  position: absolute;
   font-size: 23px;
   font-weight: 1000;
-  top: 73%;
-  left: 55%;
 }
 
 .shorts .box2 h4 {
-  position: absolute;
-  top: 67%;
-  left: 69%;
   background-color: #008cff;
   width: 60px;
   height: 20px;
@@ -222,9 +221,6 @@ menu .search button {
 }
 
 .shorts .box2 .about {
-  position: absolute;
-  top: 77%;
-  left: 56.4%;
   width: 260px;
   height: 50px;
   display: flex;
@@ -234,17 +230,11 @@ menu .search button {
 }
 
 .shorts .box3 h3 {
-  position: absolute;
   font-size: 23px;
   font-weight: 1000;
-  top: 73%;
-  left: 39%;
 }
 
 .shorts .box3 h4 {
-  position: absolute;
-  top: 67%;
-  left: 42%;
   background-color: #00e30b;
   width: 100px;
   height: 20px;
@@ -260,9 +250,6 @@ menu .search button {
 }
 
 .shorts .box3 .about {
-  position: absolute;
-  top: 77%;
-  left: 31.5%;
   width: 260px;
   height: 50px;
   display: flex;
@@ -272,17 +259,11 @@ menu .search button {
 }
 
 .shorts .box4 h3 {
-  position: absolute;
   font-size: 23px;
   font-weight: 1000;
-  top: 73%;
-  left: 1.5%;
 }
 
 .shorts .box4 h4 {
-  position: absolute;
-  top: 67%;
-  left: 20%;
   background-color: #ff0000;
   width: 42px;
   height: 20px;
@@ -298,9 +279,6 @@ menu .search button {
 }
 
 .shorts .box4 .about {
-  position: absolute;
-  top: 77%;
-  left: 6.4%;
   width: 260px;
   height: 50px;
   display: flex;
@@ -356,7 +334,7 @@ menu .search button {
   height: 380px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -966,7 +944,7 @@ menu .search button {
   font-size: 16px;
 }
 
-.litlle-news .first-news .box2  .texts p {
+.litlle-news .first-news .box2 .texts p {
   font-size: 14px;
   color: #444;
 }
@@ -1141,30 +1119,6 @@ menu .search button {
   height: fit-content;
 }
 
-.litlle-news .last-part .social {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 300px;
-  width: 90%;
-  margin-bottom: -40px;
-  padding: 20px 20px 40px 20px;
-}
-
-.litlle-news .last-part .social .line-top {
-  position: absolute;
-  top: 1%;
-  right: 1%;
-  width: 40px;
-  height: 40px;
-  border: 7px solid #008cff;
-  border-left: none;
-  border-bottom: none;
-  border-radius: 0 5px 0 0;
-}
-
 .litlle-news .last-part .social .box {
   width: 48%;
   height: 40%;
@@ -1230,18 +1184,6 @@ menu .search button {
 
 .litlle-news .last-part .social .box4 h3 {
   margin: 10px 5px 0 5px;
-}
-
-.litlle-news .last-part .social .line-bottom {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  border: 7px solid #008cff;
-  border-top: none;
-  border-right: none;
-  left: 1%;
-  top: 70%;
-  border-radius: 0 0 0 5px;
 }
 
 .litlle-news .last-part .ad {
@@ -1322,7 +1264,6 @@ footer .under {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 footer .under .right {
@@ -1341,8 +1282,7 @@ footer .under .right .title {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 footer .under .right .title h2 {
@@ -1366,15 +1306,6 @@ footer .under .right .logo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-footer .under .right .social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  height: 80px;
 }
 
 footer .under .middle {
@@ -1457,17 +1388,49 @@ footer .under .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 30%;
   height: 100%;
 }
 
-footer .under .left img {
-  justify-self: center;
-  align-self: center;
-  width: 250px;
-  height: 250px;
+footer .under .left .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 30px 0;
+}
+
+footer .under .left .title h3 {
+  font-size: 26px;
+}
+
+footer .under .left .title .line {
+  width: 30%;
+  border: 1px solid #fff;
+}
+
+footer .under .left .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* height: 100%; */
+}
+
+footer .under .left .social .box {
+  width: 50%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid #fff;
   border-radius: 12px;
+  padding: 10px 0;
+}
+
+footer .under .left .social .box:hover {
+  box-shadow: 0 0 20px #fff;
 }
 
 @media only screen and (max-width: 480px) {
@@ -1475,6 +1438,13 @@ footer .under .left img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .logo {
+    display: none;
   }
 
   menu .items ul {
@@ -1482,12 +1452,14 @@ footer .under .left img {
   }
 
   .mobile--menu {
-    transition: height .5s;
+    transition: height 0.5s;
   }
 
   .mobile--menu .items {
     width: 100%;
     height: 100%;
+    background: linear-gradient(-90deg, #0073e8, #13ffa1);
+    border-radius: 0 0 15px 15px;
   }
 
   .mobile--menu .items ul {
@@ -1498,11 +1470,25 @@ footer .under .left img {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
+    border-top: 2px #000 solid;
   }
 
   .mobile--menu .items ul li a {
     text-decoration: none;
     color: #000;
+    margin: 0;
+  }
+
+  .shorts {
+    flex-direction: column;
+    height: 1600px;
+  }
+
+  .shorts .box {
+    padding: 5px;
+    width: 75%;
+    height: 400px;
+    margin-bottom: 10px;
   }
 
   footer {
