@@ -1556,17 +1556,11 @@ footer .under .left .social .box:hover {
     width: 100%;
     margin: 0;
   }
-
-  footer .under .middle .title {
+  
+  footer .under .left {
     width: 100%;
-    justify-content: flex-start;
   }
-
-  footer .under .middle .title h2 {
-    width: fit-content;
-  }
-
-  footer .under .middle .title .line {
-    margin-right: 5px;
+  footer .under .left .social .box {
+    width: 75%;
   }
 }
