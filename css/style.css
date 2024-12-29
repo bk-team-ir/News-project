@@ -1552,4 +1552,10 @@ footer .under .left .social .box:hover {
     width: 100%;
     margin: 0;
   }
+  footer .under .left {
+    width: 100%;
+  }
+  footer .under .left .social .box {
+    width: 75%;
+  }
 }
