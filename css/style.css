@@ -1453,6 +1453,9 @@ footer .under .left .social .box:hover {
 
   .mobile--menu {
     transition: height 0.5s;
+    position: sticky;
+    top: 70px;
+    z-index: 200;
   }
 
   .mobile--menu .items {
@@ -1524,6 +1527,7 @@ footer .under .left .social .box:hover {
     justify-content: space-evenly;
     width: 100%;
     height: 100%;
+    margin: 0;
   }
 
   footer .under .right p {
@@ -1552,6 +1556,7 @@ footer .under .left .social .box:hover {
     width: 100%;
     margin: 0;
   }
+  
   footer .under .left {
     width: 100%;
   }
