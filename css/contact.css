@@ -121,13 +121,14 @@ textarea {
   border-bottom: solid #000 1px;
   background-color: #adcdf923;
   border-radius: 20px;
+  outline: none;
 }
 
 .form .form--box textarea {
   padding: 25px;
   max-width: 350px;
   max-height: 100px;
-  font-size: 18px;
+  font-size: 15px;
   min-width: 350px;
   min-height: 100px;
 }
